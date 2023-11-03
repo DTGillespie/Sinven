@@ -1,0 +1,17 @@
+{
+  "name": "sinven",
+  "version": "1.0.0",
+  "description": "Simple Inventory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DGillespie",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.1.0",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^6.2.0"
+  }
+}

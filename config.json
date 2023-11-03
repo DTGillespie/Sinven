@@ -1,0 +1,32 @@
+{
+
+  "application": {
+    "alias": "Sinven",
+    "logLevel": 5, 
+    "server": {
+      "port": 12775
+    }
+  },
+
+  "api": {
+    "port": 12776
+  },
+
+  "db": {
+    "endpoint": "sinven",
+    "alias": "sinven",
+    "collections": {
+
+      "primary": {
+        "alias": "inven_primary",
+        "model": {
+          "id": "string",
+          "name": "string",
+          "qty": "number",
+          "stocked": "boolean"
+        }
+      }
+
+    }
+  }
+}
