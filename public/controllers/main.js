@@ -1,3 +1,3 @@
 app.controller('mainCtrl', function ($scope){
-  console.log("Debug");
+  console.log("Debug Main");
 });

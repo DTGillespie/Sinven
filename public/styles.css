@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Montserrat-Subrayada-Bold';
+  src: url('assets/fonts/Montserrat/MontserratSubrayada-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+body {
+  margin: 0;
+}
+
+#dashboard {
+  font-family: 'Montserrat-Subrayada-Bold';
+  font-size: x-large;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid black;
+}
+
+#main {
+  font-family: 'Montserrat-Regular';
+  font-size: larger;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 4px;
+}
+
+input {
+  border: 2px solid black;
+  height:35px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  outline: none !important;
+  background-color: #000;
+  color: white;
+}
+
+.input-margin {
+  margin-bottom: 40px;
+}
+
+button {
+  border: 2px solid black;
+  width: 100px;
+  background-color: #fff;
+  text-align: center;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+button:hover {
+  outline: none !important;
+  background-color: #000;
+  color: white;
+}
+
+.button-margin {
+  padding-left: 10px;
+  padding-right: 10px;
+}

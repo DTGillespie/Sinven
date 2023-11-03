@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
   <head>
     <meta charset="UTF-8">
@@ -7,26 +7,26 @@
     <title></title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="styles.css">
     
     <!-- Angular Dependencies -->
-    <script src="assets/angular-legacy/angular.min.js"></script>
-    <script src="assets/angular-legacy/angular-ui-router.min.js"></script>
-    <script src="assets/angular-legacy/angular-animate.min.js"></script>
-    
+    <script src="assets/angular-1.8.2/angular.min.js"></script>
+    <script src="assets/uirouter-1.8.3/angular.ui.router.min.js"></script>
+    <script src="assets/angular-1.8.2/angular-animate.min.js"></script>
+  
     <!-- Bootstrap/Misc. -->
-    <!--<script src="assets/bootstrap-4.0.0/js/bootstrap.js"></script>-->
+    <script src="assets/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+    <script src="assets/bootstrap-4.0.0/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-4.0.0/css/bootstrap-grid.min.css">
     
     <!-- MVC -->
     <script src="index.js"></script>
     <script src="controllers/dashboard.js"></script>
     <script src="controllers/main.js"></script>
-
   </head>
   
-  <body ng-app="ngApp">
-
-
-    <main ui-view></main>
+  <body id="body" ng-app="ngApp" class="h-100">
+    <div ui-view="" class="container-fluid h-100" style="padding: 0;"></div>
   </body>
 </html>
